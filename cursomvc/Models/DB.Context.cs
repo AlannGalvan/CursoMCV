@@ -27,5 +27,7 @@ namespace cursomvc.Models
     
         public virtual DbSet<cstate> cstate { get; set; }
         public virtual DbSet<userr> userr { get; set; }
+        public virtual DbSet<animal> animal { get; set; }
+        public virtual DbSet<animal_class> animal_class { get; set; }
     }
 }
